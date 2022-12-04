@@ -1,0 +1,127 @@
+body{
+    font-family: "Lato", Arial, sans-serif;
+}
+
+section{
+    position: relative;
+    background-color: #f8f9fd;
+    padding-bottom: 112px; 
+    h2{
+        padding-top: 123px;
+        margin-bottom: 60px;
+        margin-left: 595px;
+        font-size: 28px;
+        color: #000;
+        line-height: 1.5;
+        font-weight: 400;
+        font-family: "Lato", Arial, sans-serif;
+    }
+    div.content{
+        width: 920px;
+        height: 515px;
+        background-color: white;
+        display: flex;
+        margin-left: 190px;
+        position: relative;
+        border-radius: 15px;
+        box-shadow: 2px 2px 0 0 rgb(216, 210, 210);
+        img{
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        div.login{
+           margin-left: 50px;
+           padding-top: 50px;
+           position: relative;
+           h3{
+            line-height: 1.5;
+            font-weight: 400;
+            color: #000;
+            font-size: 1.75rem;
+           }
+        }
+        div.icon_link{
+            padding-top: 50px;
+            margin-left: 185px;
+            a{
+                background-color: rgb(180, 167, 167);
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                border-radius: 50%;
+                position: relative;
+                &:hover{
+                   color: white;
+                   background-color: #e3b04b;
+                  }
+                i{
+                   position: absolute;
+                    top: 50%;
+                    left: 50%;
+                   transform: translate(-50% , -50%);
+                  }
+             }
+        }
+    }
+    form{
+        position: absolute;
+        top:348px;
+        left: 703px;
+        label{
+            font-size: 15px;
+            color: #000;
+             font-weight: 700;
+        }
+        input{
+            border: 1px solid rgb(148, 143, 143);
+            margin-top: 15px;
+            width: 363px;
+            height: 47px;
+            border-radius: 5px;
+            padding-left: 10px;
+            &:focus{
+                outline: 1px solid #e3b04b;
+            }  
+          
+        }
+        button{
+            margin-top: 20px;
+            display: inline-block;
+            width: 363px;
+            height: 47px;
+            background-color: #e3b04b;
+            opacity: 0.9;
+            font-size: 15px;
+             color: white;
+             border-radius: 5px;
+             
+        }
+        input.remember{
+           
+            width: 15px;
+            height:15px;
+        }
+        a.forgot{
+            position: absolute;
+            top: 275px;
+            left: 240px;
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+             line-height: 1.8;
+        }
+        span{
+           position: absolute;
+           top: 328px;
+           left: 100px;
+           color: gray;
+           a{
+            color: #e3b04b;
+            text-decoration: none;
+            &:hover{
+                color: blue;
+            }
+           }
+        }
+    }
+}
